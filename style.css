@@ -25,7 +25,7 @@ body{    /*setting background*/
 .calc {  /*table class*/
 border-radius:1rem;
     padding:5px;
-  transform:translate(200%,0%);
+  transform:translate(130%,0%);
    width:300px;
    height:300px;
     box-shadow: black;
@@ -62,16 +62,17 @@ input[type=button]{     /*Modifying the buttons created*/
     text-align: center;
     margin-top:20px;
     padding: 20px;
-    font-size: x-large;
+    font-size:large;
     font:bolder
 }
 .list{
-    margin-left:600px;
+    margin-top:2px;
+    font-size:12px;
+    margin-left:550px;
  text-align: center;
-    font-size: larger;
-    list-style: none;
 text-align: justify;
-padding:2.5px;
+padding:2px;
+    list-style: none;
 font-family: 'Libre Baskerville',sans-serif;
 }
 
