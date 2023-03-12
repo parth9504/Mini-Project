@@ -1,0 +1,165 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{   /*Modifying the heading */
+    margin-top:10px;
+    padding:10px;
+    margin-bottom:5px;
+    text-align: center;
+    font:bolder;
+    font-family: 'Libre Baskerville',sans-serif;
+}
+p{    /*Modifying the sub-heading*/
+    text-align:center;
+    font-size:large;
+    margin-bottom: 50px;
+    font-family: 'Libre Baskerville',sans-serif;
+}
+body{    /*setting background*/
+    background: linear-gradient(#e66465, #9198e5);
+    height:100vh;
+    background-size:cover;
+    background-blend-mode: overlay;
+}
+.calc {  /*table class*/
+border-radius:1rem;
+    padding:5px;
+  transform:translate(200%,0%);
+   width:300px;
+   height:300px;
+    box-shadow: black;
+    border-style:double;
+    border-color:black;
+    text-align: right;
+}  
+
+.disp-box{    /*display of the calculator*/
+    border:solid black 0.5px;
+    color:black;
+    border-radius:10px;
+    width:100%;
+    height:75%;
+    padding:5px;
+}
+.hello,
+.val{
+color: #e66465;
+}
+input[type=button]{     /*Modifying the buttons created*/
+    background-color:yellowgreen;
+    color:black;
+    border:solid black 0.5px;
+    outline:none;
+    font-size: 1.7rem;
+    width:70%;
+    padding:5px;
+    cursor:pointer;
+    border-radius:6px;
+}
+
+.help{
+    text-align: center;
+    margin-top:20px;
+    padding: 20px;
+    font-size: x-large;
+    font:bolder
+}
+.list{
+    margin-left:600px;
+ text-align: center;
+    font-size: larger;
+    list-style: none;
+text-align: justify;
+padding:2.5px;
+font-family: 'Libre Baskerville',sans-serif;
+}
+
+@media(max-width:768px){   /*for small screen devices*/
+    .h1,
+    .p{
+        margin-left: 0.5px;
+        margin-right: 60%;
+        font-size:smaller;
+        text-align:justify;
+    }
+   .calc{
+    transform:translate(60%,0%);
+ width:300px;
+ height: 400px;
+   }
+.instruct{
+font: size 5px;
+margin-left:4px;
+margin-right:70px;
+margin-top:320px;
+  /*  margin-bottom: 0px;
+   margin-top: 320px;*/}
+.help{
+    margin-top:100px;
+    margin-right: 15%;
+}
+.basic{
+    font-size: 16px;
+   margin-right:20%;
+}
+.list{
+    font-size: large;
+    margin-left: 150px;
+    text-align: center;
+    text-align: justify;
+
+}
+}
+
+
+
+
+
+@media(min-width:769px) and (max-width:1000px){   /*for tablets*/
+   .calc{
+    transform:translate(70%,0%);
+ width:400px;
+ height: 400px;
+   }
+.instruct{
+font: size 5px;
+margin-left:3px;
+margin-right:15%;
+margin-top:320px;
+  /*  margin-bottom: 0px;
+   margin-top: 320px;*/}
+.help{
+    margin-top:100px;
+    margin-right: 10%;
+}
+.basic{
+    font-size: 16px;
+   margin-right:12%;
+}
+.list{
+    font-size: 20px;
+margin-left: 250px;
+    margin-right:100px;
+    text-align: center;
+    text-align: justify;
+}
+}
+ @media(min-width:1520px){  /*for larger screen devices*/
+    .h1,
+    .p{
+        font-size: larger;
+        text-align: center;
+    }
+    .calc{
+        width:400px;
+        height:450px;
+        transform: translate(130%,0%);
+    }
+   
+    .list{
+        text-align: center;
+        text-align: justify;
+        margin-left:650px;
+    }
+}

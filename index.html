@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Lobster&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/515cf1d69d.css" crossorigin="anonymous">
+  
+</head>
+
+
+<body>
+    <script src="script.js"></script>
+    <h1><i class="fa-solid fa-calculator"></i>  TLGND CALCULATOR </h1>
+    <p>Created with <i class="fa-solid fa-heart"></i>  to make your calculations easier</p>
+<table class="calc">
+    <tr>
+        <td colspan="4"> <input type="text"  id="dispbox" class="disp-box" placeholder="enter value"></td>
+        <td> <input type="button" value="AC" onClick="erase()"></td>
+    </tr>
+    <tr>
+       
+<td><input type="button" value="1" class="button-val" onClick="disp('1')" ></td>
+<td><input type="button" value="2" class="button-val" onClick="disp('2')"></td>
+<td><input type="button" value="3" class="button-val" onClick="disp('3')"></td>
+<td><input type="button" value="+" class="button-val" onClick="disp('+')"></td>
+<td><input type="button" value="^" class="button-val" onClick="disp('^')"></td>
+    </tr>
+
+    <tr>
+        <td><input type="button" value="4 " class="button-val" onClick="disp('4')"></td>
+        <td><input type="button" value="5" class="button-val" onClick="disp('5')"></td>
+        <td><input type="button" value="6" class="button-val" onClick="disp('6')"></td>
+        <td><input type="button" value="-" class="button-val" onClick="disp('-')"></td>
+        <td><input type="button"  value="%" class="button-val" onClick="disp('%')" ></td>  </tr>
+            <tr>
+                <td class="hello"><input type="button" value="7 " class="button-val" onClick="disp('7')"/></td>
+                <td><input type="button" value="8" class="button-val" onClick="disp('8')" ></td>
+                <td><input type="button" value="9" class="button-val" onClick="disp('9')"></td>
+                <td><input type="button"  value="*" class="button-val" onClick="disp('*')"></td>
+                <td><input type="button" value="sq" class="button-val" onClick="disp('sq')"></td>
+                    </tr>
+                    <tr>
+                        <td style="max-zoom:initial;"><input type="button" value="." class="button-val" onClick="disp('.')" ></td>
+                        <td><input type="button" value="0" class="button-val" onClick="disp('0')" ></td>
+                        <td><input type="button" value="=" class="button-val" onClick="solve()" ></td>
+                        <td><input type="button" value="/" class="button-val" onClick="disp('/')"></td>
+                        <td><input type="button" value="cb" class="button-val" onClick="disp('cb')" ></td>
+                            </tr> 
+
+
+</table>
+<span style="position:absolute;font-size:22px; margin-left:10px;right:50px;top:250px;" class="instruct"><b><u>Instructions:</u></b><br>
+    While using <b>'sq'</b> and <b>'cb'</b> kindly input a <b>single</b> value only.
+</span>
+
+    <h3 class="help">Help?</h3>
+    <p class="basic" style="text-align: center; font-style: italic;"><b><u>Basic Operations of the above designed calculator </u></b></p>
+    <ul>
+        <li class="list">'sq' to find the <b>square</b> of number</li>
+        <li class="list">'cb' to find the <b>cube </b>  of a number</li>
+             <li class="list">'%' to find the <b>remainder</b>(modulo)</li>
+             <li class="list">'^' to find <b>x  raised  to  y</b></li>
+    
+    </ul>
+</body>
+</html>
